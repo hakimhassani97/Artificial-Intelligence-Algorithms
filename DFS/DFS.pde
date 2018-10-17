@@ -1,3 +1,10 @@
+/*
+hakim hassani M1 MIV 2018/2019
+DFS ALgorithm
+you can select the start point and the destination point with the mouse
+made for educational purpose and sorry for my dirty code x)
+created on October 3rd,2018
+*/
 PImage img;
 int i,j, w, h;
 float r,g,b;
