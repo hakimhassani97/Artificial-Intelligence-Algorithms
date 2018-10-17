@@ -1,8 +1,10 @@
 /*
 hakim hassani M1 MIV 2018/2019
-algorithme A
-decommenter les lignes de la fonction h pour changer entre diagonale,manhattan et euclidien 
-fait le mercredi 03/10
+A* ALgorithm
+uncomment the lines of the "h" function to toggle between diagonal,manhattan and euclidean distances
+you can select the start point and the destination point with the mouse
+made for educational purpose and sorry for my dirty code x)
+created on October 3rd,2018
 */
 PImage img;
 int i,j, w, h;
@@ -10,6 +12,7 @@ float r,g,b;
 Point s,curr,prec;
 int size=0,m=0,click=0;
 ArrayList<Point> open,closed;
+//chemin==path
 ArrayList<Point> chemin=new ArrayList<Point>();
 boolean found=false;
 int [][]obst={
